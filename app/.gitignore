@@ -1,0 +1,6 @@
+/build
+.gradle
+.cxx/Debug
+/.cxx/Debug
+.cxx/RelWithDebInfo
+/.cxx/RelWithDebInfo
