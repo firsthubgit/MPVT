@@ -4,29 +4,6 @@ plugins {
 }
 
 android {
-    defaultConfig {
-        applicationId "is.xyz.mpv"
-        minSdk 21
-        targetSdk 32
-        versionCode 1
-        versionName "1.0"
-        externalNativeBuild {
-            cmake {
-                cppFlags ''
-            }
-        }
-        ndk {
-            abiFilters 'arm64-v8a'
-        }
-    }
-    externalNativeBuild {
-        cmake {
-            path file('src/main/cpp/CMakeLists.txt')
-            version '3.18.1'
-        }
-    }
-}
-android {
     compileSdk 32
 
 //    ndkVersion "21.4.7075529"
